@@ -1,0 +1,35 @@
+/* Element Plus 主题定制 */
+
+:root {
+  --el-color-primary: #87CEEB;
+  --el-color-success: #67C23A;
+  --el-color-warning: #E6A23C;
+  --el-color-danger: #F56C6C;
+  --el-color-info: #909399;
+}
+
+/* 按钮样式 */
+.el-button--primary {
+  background-color: var(--el-color-primary);
+  border-color: var(--el-color-primary);
+}
+
+.el-button--primary:hover {
+  background-color: #57a9d4;
+  border-color: #57a9d4;
+}
+
+/* 表单样式 */
+.el-input__wrapper {
+  border-radius: 6px;
+}
+
+.el-form-item__label {
+  font-weight: 500;
+}
+
+/* 卡片样式 */
+.el-card {
+  border-radius: 8px;
+  box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.1);
+}
